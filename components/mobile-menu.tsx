@@ -43,7 +43,7 @@ export function MobileMenu({ links }: MobileMenuProps) {
       <SheetContent side="right" className="w-[300px] sm:w-[350px] p-0 pt-6" hideCloseButton>
         <div className="flex flex-col h-full">
           <div className="flex justify-between items-center px-6 mb-6">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 pl-2">
               <Building2 className="h-6 w-6 text-amber-600" />
               <span className="text-xl font-bold">VIBHA HOMES</span>
             </div>
