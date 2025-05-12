@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="#87CEEB"/>
+  
+  <!-- Ground -->
+  <rect y="400" width="800" height="200" fill="#7CFC00"/>
+  
+  <!-- Luxury Villa -->
+  <rect x="150" y="200" width="500" height="200" fill="#F5F5DC"/>
+  
+  <!-- Roof -->
+  <polygon points="150,200 400,100 650,200" fill="#8B4513"/>
+  
+  <!-- Windows -->
+  <rect x="200" y="250" width="60" height="80" fill="#ADD8E6"/>
+  <line x1="230" y1="250" x2="230" y2="330" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="200" y1="290" x2="260" y2="290" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <rect x="300" y="250" width="60" height="80" fill="#ADD8E6"/>
+  <line x1="330" y1="250" x2="330" y2="330" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="300" y1="290" x2="360" y2="290" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <rect x="440" y="250" width="60" height="80" fill="#ADD8E6"/>
+  <line x1="470" y1="250" x2="470" y2="330" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="440" y1="290" x2="500" y2="290" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <rect x="540" y="250" width="60" height="80" fill="#ADD8E6"/>
+  <line x1="570" y1="250" x2="570" y2="330" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="540" y1="290" x2="600" y2="290" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Door -->
+  <rect x="375" y="300" width="50" height="100" fill="#8B4513"/>
+  <circle cx="390" cy="350" r="5" fill="#FFD700"/>
+  
+  <!-- Chimney -->
+  <rect x="550" y="120" width="30" height="80" fill="#A52A2A"/>
+  
+  <!-- Swimming Pool -->
+  <rect x="150" y="450" width="200" height="100" fill="#00BFFF"/>
+  <rect x="150" y="450" width="200" height="100" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+  
+  <!-- Garden -->
+  <circle cx="450" cy="500" r="30" fill="#228B22"/>
+  <circle cx="520" cy="480" r="25" fill="#228B22"/>
+  <circle cx="580" cy="510" r="35" fill="#228B22"/>
+  
+  <!-- Flowers -->
+  <circle cx="450" cy="485" r="5" fill="#FF0000"/>
+  <circle cx="460" cy="490" r="5" fill="#FF69B4"/>
+  <circle cx="440" cy="495" r="5" fill="#FFFF00"/>
+  
+  <circle cx="520" cy="470" r="4" fill="#FF0000"/>
+  <circle cx="530" cy="475" r="4" fill="#FF69B4"/>
+  <circle cx="515" cy="480" r="4" fill="#FFFF00"/>
+  
+  <circle cx="580" cy="500" r="6" fill="#FF0000"/>
+  <circle cx="590" cy="505" r="6" fill="#FF69B4"/>
+  <circle cx="575" cy="510" r="6" fill="#FFFF00"/>
+  
+  <!-- Driveway -->
+  <rect x="375" y="400" width="50" height="150" fill="#808080"/>
+  
+  <!-- Car -->
+  <rect x="385" y="500" width="30" height="15" fill="#000000"/>
+  <rect x="380" y="485" width="40" height="15" fill="#FF0000"/>
+  <circle cx="385" cy="515" r="5" fill="#000000"/>
+  <circle cx="415" cy="515" r="5" fill="#000000"/>
+  
+  <!-- Sun -->
+  <circle cx="700" cy="100" r="40" fill="#FFD700"/>
+  <line x1="700" y1="40" x2="700" y2="20" stroke="#FFD700" stroke-width="3"/>
+  <line x1="700" y1="160" x2="700" y2="180" stroke="#FFD700" stroke-width="3"/>
+  <line x1="640" y1="100" x2="620" y2="100" stroke="#FFD700" stroke-width="3"/>
+  <line x1="760" y1="100" x2="780" y2="100" stroke="#FFD700" stroke-width="3"/>
+  <line x1="660" y1="60" x2="645" y2="45" stroke="#FFD700" stroke-width="3"/>
+  <line x1="740" y1="140" x2="755" y2="155" stroke="#FFD700" stroke-width="3"/>
+  <line x1="660" y1="140" x2="645" y2="155" stroke="#FFD700" stroke-width="3"/>
+  <line x1="740" y1="60" x2="755" y2="45" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Luxury text -->
+  <text x="350" y="50" font-family="Arial" font-size="24" font-weight="bold" fill="#000000">LUXURY VILLA</text>
+</svg>

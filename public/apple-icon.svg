@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180" height="180" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="64" fill="#FFFFFF"/>
+  
+  <!-- House shape -->
+  <path d="M256 80L80 220V432H432V220L256 80Z" fill="#F59E0B" stroke="#78350F" stroke-width="16"/>
+  
+  <!-- Roof -->
+  <path d="M256 80L80 220H432L256 80Z" fill="#B45309" stroke="#78350F" stroke-width="16"/>
+  
+  <!-- Door -->
+  <rect x="216" y="312" width="80" height="120" rx="8" fill="#78350F"/>
+  
+  <!-- Windows -->
+  <rect x="136" y="240" width="64" height="64" rx="8" fill="#FBBF24"/>
+  <rect x="312" y="240" width="64" height="64" rx="8" fill="#FBBF24"/>
+  
+  <!-- Window frames -->
+  <path d="M136 272H200M168 240V304" stroke="#78350F" stroke-width="4"/>
+  <path d="M312 272H376M344 240V304" stroke="#78350F" stroke-width="4"/>
+  
+  <!-- Letter V in the center -->
+  <path d="M256 160L226 200H286L256 160Z" fill="#FFFFFF"/>
+</svg>

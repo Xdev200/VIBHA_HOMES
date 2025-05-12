@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920" height="800" viewBox="0 0 1920 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="1920" height="800" fill="#87CEEB"/>
+  
+  <!-- Ground -->
+  <rect y="600" width="1920" height="200" fill="#8B4513"/>
+  
+  <!-- Buildings in background -->
+  <rect x="100" y="300" width="200" height="300" fill="#708090"/>
+  <rect x="150" y="350" width="30" height="30" fill="#FFFFFF"/>
+  <rect x="150" y="400" width="30" height="30" fill="#FFFFFF"/>
+  <rect x="150" y="450" width="30" height="30" fill="#FFFFFF"/>
+  <rect x="200" y="350" width="30" height="30" fill="#FFFFFF"/>
+  <rect x="200" y="400" width="30" height="30" fill="#FFFFFF"/>
+  <rect x="200" y="450" width="30" height="30" fill="#FFFFFF"/>
+  
+  <rect x="350" y="250" width="250" height="350" fill="#A9A9A9"/>
+  <rect x="400" y="300" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="400" y="360" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="400" y="420" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="400" y="480" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="460" y="300" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="460" y="360" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="460" y="420" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="460" y="480" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="520" y="300" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="520" y="360" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="520" y="420" width="40" height="40" fill="#FFFFFF"/>
+  <rect x="520" y="480" width="40" height="40" fill="#FFFFFF"/>
+  
+  <!-- Main construction site -->
+  <rect x="700" y="400" width="500" height="200" fill="#CD853F"/>
+  
+  <!-- Construction frame -->
+  <rect x="700" y="200" width="20" height="400" fill="#696969"/>
+  <rect x="1180" y="200" width="20" height="400" fill="#696969"/>
+  <rect x="700" y="200" width="500" height="20" fill="#696969"/>
+  <line x1="700" y1="200" x2="950" y2="100" stroke="#696969" stroke-width="10"/>
+  <line x1="1200" y1="200" x2="950" y2="100" stroke="#696969" stroke-width="10"/>
+  
+  <!-- Scaffolding -->
+  <rect x="650" y="250" width="600" height="10" fill="#696969"/>
+  <rect x="650" y="350" width="600" height="10" fill="#696969"/>
+  <rect x="650" y="450" width="600" height="10" fill="#696969"/>
+  <rect x="650" y="250" width="10" height="350" fill="#696969"/>
+  <rect x="800" y="250" width="10" height="350" fill="#696969"/>
+  <rect x="950" y="250" width="10" height="350" fill="#696969"/>
+  <rect x="1100" y="250" width="10" height="350" fill="#696969"/>
+  <rect x="1250" y="250" width="10" height="350" fill="#696969"/>
+  
+  <!-- Crane -->
+  <rect x="1400" y="200" width="30" height="400" fill="#FF4500"/>
+  <rect x="1350" y="200" width="200" height="30" fill="#FF4500"/>
+  <rect x="1350" y="170" width="30" height="30" fill="#FF4500"/>
+  <line x1="1430" y1="200" x2="1600" y2="100" stroke="#FF4500" stroke-width="10"/>
+  <circle cx="1600" cy="100" r="15" fill="#696969"/>
+  <line x1="1600" y1="100" x2="1600" y2="150" stroke="#696969" stroke-width="5"/>
+  <rect x="1580" y="150" width="40" height="30" fill="#696969"/>
+  
+  <!-- Construction workers -->
+  <!-- Worker 1 -->
+  <circle cx="800" cy="550" r="15" fill="#FFD700"/>
+  <rect x="790" y="565" width="20" height="30" fill="#0000FF"/>
+  <line x1="800" y1="595" x2="780" y2="625" stroke="#0000FF" stroke-width="5"/>
+  <line x1="800" y1="595" x2="820" y2="625" stroke="#0000FF" stroke-width="5"/>
+  <line x1="790" y1="575" x2="770" y2="595" stroke="#0000FF" stroke-width="5"/>
+  <line x1="810" y1="575" x2="830" y2="595" stroke="#0000FF" stroke-width="5"/>
+  
+  <!-- Worker 2 -->
+  <circle cx="1000" cy="500" r="15" fill="#FFD700"/>
+  <rect x="990" y="515" width="20" height="30" fill="#FF0000"/>
+  <line x1="1000" y1="545" x2="980" y2="575" stroke="#FF0000" stroke-width="5"/>
+  <line x1="1000" y1="545" x2="1020" y2="575" stroke="#FF0000" stroke-width="5"/>
+  <line x1="990" y1="525" x2="970" y2="545" stroke="#FF0000" stroke-width="5"/>
+  <line x1="1010" y1="525" x2="1030" y2="545" stroke="#FF0000" stroke-width="5"/>
+  
+  <!-- Worker 3 -->
+  <circle cx="1100" cy="550" r="15" fill="#FFD700"/>
+  <rect x="1090" y="565" width="20" height="30" fill="#008000"/>
+  <line x1="1100" y1="595" x2="1080" y2="625" stroke="#008000" stroke-width="5"/>
+  <line x1="1100" y1="595" x2="1120" y2="625" stroke="#008000" stroke-width="5"/>
+  <line x1="1090" y1="575" x2="1070" y2="595" stroke="#008000" stroke-width="5"/>
+  <line x1="1110" y1="575" x2="1130" y2="595" stroke="#008000" stroke-width="5"/>
+  
+  <!-- Construction materials -->
+  <rect x="850" y="550" width="100" height="50" fill="#D3D3D3"/>
+  <rect x="1150" y="550" width="50" height="50" fill="#A0522D"/>
+  <circle cx="1250" cy="575" r="25" fill="#808080"/>
+  
+  <!-- Sun -->
+  <circle cx="100" cy="100" r="50" fill="#FFD700"/>
+  <line x1="100" y1="30" x2="100" y2="10" stroke="#FFD700" stroke-width="5"/>
+  <line x1="100" y1="170" x2="100" y2="190" stroke="#FFD700" stroke-width="5"/>
+  <line x1="30" y1="100" x2="10" y2="100" stroke="#FFD700" stroke-width="5"/>
+  <line x1="170" y1="100" x2="190" y2="100" stroke="#FFD700" stroke-width="5"/>
+  <line x1="50" y1="50" x2="35" y2="35" stroke="#FFD700" stroke-width="5"/>
+  <line x1="150" y1="150" x2="165" y2="165" stroke="#FFD700" stroke-width="5"/>
+  <line x1="50" y1="150" x2="35" y2="165" stroke="#FFD700" stroke-width="5"/>
+  <line x1="150" y1="50" x2="165" y2="35" stroke="#FFD700" stroke-width="5"/>
+</svg>
