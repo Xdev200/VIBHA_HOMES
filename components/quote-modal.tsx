@@ -1,14 +1,14 @@
 'use client'
 
 import { useState } from 'react'
-import { 
-  Dialog, 
-  DialogContent, 
-  DialogDescription, 
-  DialogFooter, 
-  DialogHeader, 
-  DialogTitle, 
-  DialogTrigger 
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger
 } from '@/components/ui/dialog'
 import { Button } from '@/components/ui/button'
 import { Building2 } from 'lucide-react'
@@ -20,8 +20,8 @@ interface QuoteModalProps {
   buttonVariant?: 'default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link'
 }
 
-export function QuoteModal({ 
-  buttonText = 'Get a Quote', 
+export function QuoteModal({
+  buttonText = 'Get a Quote',
   buttonClassName = '',
   buttonSize = 'default',
   buttonVariant = 'default'
@@ -38,12 +38,12 @@ export function QuoteModal({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
+
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false)
       setIsSuccess(true)
-      
+
       // Reset form after 2 seconds and close modal
       setTimeout(() => {
         setName('')
@@ -60,15 +60,15 @@ export function QuoteModal({
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>
-        <Button 
-          size={buttonSize} 
-          variant={buttonVariant} 
+        <Button
+          size={buttonSize}
+          variant={buttonVariant}
           className={buttonClassName}
         >
           {buttonText}
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[500px]">
+      <DialogContent className="sm:max-w-[600px] max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2 text-2xl">
             <Building2 className="h-6 w-6 text-amber-600" />
@@ -78,7 +78,7 @@ export function QuoteModal({
             Fill out the form below to get a free quote for your construction project.
           </DialogDescription>
         </DialogHeader>
-        
+
         {isSuccess ? (
           <div className="py-6 text-center">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-100 mb-4">
@@ -90,9 +90,9 @@ export function QuoteModal({
             <p className="text-gray-600">Your quote request has been submitted successfully. We'll get back to you shortly.</p>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="space-y-4 py-4">
-            <div className="grid grid-cols-1 gap-4">
-              <div className="space-y-2">
+          <form onSubmit={handleSubmit} className="space-y-4 py-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="space-y-1">
                 <label htmlFor="name" className="text-sm font-medium">
                   Full Name <span className="text-red-500">*</span>
                 </label>
@@ -105,8 +105,8 @@ export function QuoteModal({
                   required
                 />
               </div>
-              
-              <div className="space-y-2">
+
+              <div className="space-y-1">
                 <label htmlFor="email" className="text-sm font-medium">
                   Email Address <span className="text-red-500">*</span>
                 </label>
@@ -120,8 +120,8 @@ export function QuoteModal({
                   required
                 />
               </div>
-              
-              <div className="space-y-2">
+
+              <div className="space-y-1">
                 <label htmlFor="phone" className="text-sm font-medium">
                   Phone Number
                 </label>
@@ -134,8 +134,8 @@ export function QuoteModal({
                   placeholder="Your phone number"
                 />
               </div>
-              
-              <div className="space-y-2">
+
+              <div className="space-y-1">
                 <label htmlFor="projectType" className="text-sm font-medium">
                   Project Type <span className="text-red-500">*</span>
                 </label>
@@ -154,8 +154,8 @@ export function QuoteModal({
                   <option value="other">Other</option>
                 </select>
               </div>
-              
-              <div className="space-y-2">
+
+              <div className="space-y-1 sm:col-span-2">
                 <label htmlFor="message" className="text-sm font-medium">
                   Project Details
                 </label>
@@ -163,12 +163,12 @@ export function QuoteModal({
                   id="message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-amber-600 focus:border-transparent min-h-[100px]"
+                  className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-amber-600 focus:border-transparent min-h-[80px]"
                   placeholder="Tell us about your project"
                 />
               </div>
             </div>
-            
+
             <DialogFooter>
               <Button type="submit" className="w-full bg-amber-600 hover:bg-amber-700" disabled={isSubmitting}>
                 {isSubmitting ? (
